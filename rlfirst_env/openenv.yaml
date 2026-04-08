@@ -1,0 +1,7 @@
+runtime: fastapi
+app: server.app:app
+port: 8000
+version: 1
+name: ecommerce-inventory-manager
+description: An environment where an agent manages stock levels and pricing for an online store.
+entrypoint: env:InventoryEnv
